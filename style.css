@@ -1,8 +1,71 @@
 body {
     background :rgb(170, 193, 221);
 }
+/* Select by TAG type */
+
+p {
+
+    color: whitesmoke;
+
+}
+
+/* Select by ID name (unique) */
+
+#jared {
+    background: grey
+}
+
+/* Selet by CLASS name (shared style) */
+
+.uniform {
+    color:rgb(170, 193, 221)
+}
 
 h1 {
-    color:rgb(1, 11, 20);
-    background:rgb(242, 242, 243)
+    color:white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    color:white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h3 {
+    color:white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4 {
+    color:white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h5 {
+    color:white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h6 {
+    color:white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 10px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
