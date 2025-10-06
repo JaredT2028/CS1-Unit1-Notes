@@ -12,7 +12,10 @@ p {
 /* Select by ID name (unique) */
 
 #jared {
-    background: grey
+    background: grey;
+    border: 5px outset black;
+    padding: 15px;
+    margin: 50px;
 }
 
 /* Selet by CLASS name (shared style) */
@@ -69,3 +72,23 @@ h6 {
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+.centered {
+    text-align: center;
+    margin: 50px;
+}
+
+img{
+    border: 10px outset black;
+    padding: 10px;
+}
+
+/* "comment out" a section of code
+
+* {
+    border: 2px solid steelblue;
+
+}
+
+*/
+
